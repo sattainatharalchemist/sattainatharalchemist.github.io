@@ -140,7 +140,7 @@ li {
 
 /* line 59, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_theme-default.scss */
 p {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.88;
   color: #5c5c5c;
@@ -428,7 +428,7 @@ h3 {
 
 /* line 298, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_theme-default.scss */
 .section_padding {
-  padding-top: 120px;
+  padding-top: 160px;
   padding-bottom: 120px;
 }
 
@@ -1128,7 +1128,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 56, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_header.scss */
   .header-area .main-header-area .logo img {
-    width: 100px;
+    width: 40px;
   }
 }
 
@@ -1527,6 +1527,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 28, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
+    margin-top: 50px;
     font-size: 33px;
     margin-bottom: 20px;
   }
@@ -2959,7 +2960,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
 .video_bg_1 {
-  background-image: url(../img/banner/man.png);
+  background-image: url(../img/mun5.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3138,7 +3139,7 @@ h3 {
 
 /* line 59, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_causes.scss */
 .popular_causes_area.cause_details .single_cause .causes_content .balance span {
-  font-size: 18px;
+  font-size: 12px;
   color: #222222;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
@@ -3433,7 +3434,7 @@ h3 {
 
 /* line 59, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
 .our_volunteer_area .single_volenteer .voolenteer_info .social_links ul li a {
-  font-size: 16px;
+  font-size: 12px;
   color: #222222;
 }
 
@@ -6807,3 +6808,8 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.donation_form p {
+  font-size: 20px!important;
+}
