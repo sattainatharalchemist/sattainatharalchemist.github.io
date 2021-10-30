@@ -1476,6 +1476,10 @@ h3 {
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
 .slider_bg_1 {
   background-image: url(../img/banner/siddha.jpeg);
+  -webkit-transition: background-image 2s ease-out;
+  -moz-transition: background-image 2s ease-out;
+  -o-transition: background-image 2s ease-out;
+  transition: background-image 2s ease-out;
 }
 .parallax-slider {
   transition: opacity 0.4s ease-in;
