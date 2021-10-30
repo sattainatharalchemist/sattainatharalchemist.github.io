@@ -334,8 +334,9 @@
         $('.slider_area').removeClass('transitioning-src')
         console.log(imgLength , i, counter)
         if(counter == 5) {
-          console.log("End")
+          //console.log("End")
           i = 0
+          switchImage();
         }
         counter++
       }, 5000 * i);
