@@ -14,7 +14,7 @@
 }
 
 .slider_text h3  {
-  color: yellow;
+  color: yellow !important;
 }
 
 /* line 13, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_extend.scss */
@@ -1477,6 +1477,18 @@ h3 {
 .slider_bg_1 {
   background-image: url(../img/banner/siddha.jpeg);
 }
+.parallax-slider {
+  transition: opacity 0.4s ease-in;
+  -webkit-transition: opacity 0.4s ease-in;
+  -moz-transition: opacity 0.4s ease-in;
+  -ms-transition: opacity 0.4s ease-in;
+  -o-transition: opacity 0.4s ease-in;
+  opacity: 1;
+}
+.transitioning-src {
+  transition: opacity 1s ease-out;
+
+}
 
 /* line 4, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
 .slider_bg_2 {
@@ -1489,6 +1501,7 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+ 
 }
 
 @media (max-width: 767px) {
