@@ -332,7 +332,7 @@
         $('.slider_area').addClass('transitioning-src')
         $('.slider_bg_1').css('background-image','url('+im+')')
         $('.slider_area').removeClass('transitioning-src')
-        console.log(imgLength , i, counter)
+        //console.log(imgLength , i, counter)
         if(counter == 5) {
           //console.log("End")
           i = 0
