@@ -332,7 +332,7 @@
         $('.slider_area').addClass('transitioning-src')
         $('.slider_bg_1').css('background-image','url('+im+')')
         $('.slider_area').removeClass('transitioning-src')
-      }, 9000 * i);
+      }, 5000 * i);
     }
   }
   switchImage();
