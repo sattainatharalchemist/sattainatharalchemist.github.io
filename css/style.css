@@ -13,6 +13,10 @@
   justify-content: start;
 }
 
+.slider_text h3  {
+  color: yellow !important;
+}
+
 /* line 13, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_extend.scss */
 .overlay::before {
   background-image: -moz-linear-gradient(0deg, rgba(0, 28, 100, 0.8) 21%, rgba(0, 28, 100, 0.8) 22%, rgba(0, 53, 187, 0.3) 100%, #0035bb 100%);
@@ -1085,10 +1089,7 @@ h3 {
 /* line 16, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_header.scss */
 .header-area .main-header-area {
   background: #3CC78F;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  padding: 25px 35px;
+  padding: 5px 15px;
   position: absolute;
   bottom: -50px;
   z-index: 999;
@@ -1475,6 +1476,22 @@ h3 {
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
 .slider_bg_1 {
   background-image: url(../img/banner/siddha.jpeg);
+  -webkit-transition: background-image 2s ease-out;
+  -moz-transition: background-image 2s ease-out;
+  -o-transition: background-image 2s ease-out;
+  transition: background-image 2s ease-out;
+}
+.parallax-slider {
+  transition: opacity 0.4s ease-in;
+  -webkit-transition: opacity 0.4s ease-in;
+  -moz-transition: opacity 0.4s ease-in;
+  -ms-transition: opacity 0.4s ease-in;
+  -o-transition: opacity 0.4s ease-in;
+  opacity: 1;
+}
+.transitioning-src {
+  transition: opacity 1s ease-out;
+
 }
 
 /* line 4, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
@@ -1488,6 +1505,7 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+ 
 }
 
 @media (max-width: 767px) {
@@ -2855,7 +2873,6 @@ h3 {
 
 /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_reason.scss */
 .reson_area .single_reson .thum {
-  margin-right: 84px;
   padding-bottom: 84px;
 }
 
