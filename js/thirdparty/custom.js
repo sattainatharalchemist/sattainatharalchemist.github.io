@@ -6,7 +6,7 @@ var PATH = {};
 	/******************** 1. PRELOADER ********************/
 	PATH.preLoader = function () {
 		$(".preloader").fadeOut();
-			$("#preloader-wrap").delay(200).fadeOut("slow");
+			$("#preloader-wrap").fadeOut("slow");
 	}
 
 	/******************** 2. ADD CLASS HEADER ********************/
