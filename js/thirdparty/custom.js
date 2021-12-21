@@ -1,30 +1,4 @@
-/*========================================================================
-EXCLUSIVE ON themeforest.net
-Template Name   : Prottasha - Bootstrap 4 Charity Landing Page
-Author: ThemeAtelier
-Created: September 2018
-Last update: September 2018
-========================================================================*/
 
-/* TABLE OF CONTENTS
-	1. PRELOADER
-	2. ADD CLASS HEADER
-	3. NAV COLLAPSE
-	4. NAV SMOOTH SCROLL
-	5. FIXED HEADER
-	6. HERO SLIDER
-	7. TEXT ANIMATION
-	8. VIDEO LIGHTBOX
-	9. CAUSES LIGHTBOX
-	10. CAUSES PROGRESS BARS
-	11. CAUSES SLIDER
-	12. GALLERY FILTER
-	13. GALLERY LIGHTBOX
-	14. TESTIMONIAL SLIDER
-	15. VOLUNTEERS SLIDER
-	16. COUNTER UP JS
-	17. CONTACT FORM
-*/
 var PATH = {};
 (function ($) {
 	"use strict"
